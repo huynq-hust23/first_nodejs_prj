@@ -1,0 +1,6 @@
+#Thư mục node_modules chứa các package được cài đặt bởi npm, thường rất lớn và không cần thiết đưa vào Git vì chúng có thể được cài lại dễ dàng từ file package.json bằng lệnh npm install.
+/node_modules
+/vendor
+/.idea
+.idea/
+.env

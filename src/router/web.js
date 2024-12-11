@@ -10,7 +10,7 @@ let initWebRoutes = (app) => {
         res.send("huy_nguyen23");
     });
     router.get('/get-crud', homeController.getCRUD);
-
+    router.post('/post-crud', homeController.postCRUD);
     app.use("/", router);
 };
 
